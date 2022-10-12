@@ -13,11 +13,11 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - id: get-project
+
 
 
       - name: Clone project
-        run: run: git clone --depth=1 https://github.com/jgz2k9/TVBoxOSC
+        run: run: git clone --depth=1 https://github.com/jgz2k9/TVBoxOSC project
       - name: Build the app
         working-directory: ./project
         run: |
